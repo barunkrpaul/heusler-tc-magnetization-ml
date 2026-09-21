@@ -1,0 +1,5 @@
+target,best_algorithm,cv_r2,cv_r2_ci,cv_mae,tuned_gb_cv_r2,tuned_gb_holdout_r2,holdout_r2,holdout_mae,conformal_halfwidth,conformal_coverage,scenario2_cv_r2,scenario2_holdout_r2
+curie_temperature_K,Random Forest,0.676,"[0.646,0.705]",107.6073,0.692,0.704,0.707,101.4411,257.8873,0.899,0.788,0.764
+formation_energy_eV_atom,Random Forest,0.344,"[0.292,0.392]",0.0547,0.362,0.291,0.265,0.0606,0.1154,0.855,,
+hull_distance_eV_atom,Random Forest,0.268,"[0.239,0.295]",0.0438,0.276,0.305,0.296,0.0434,0.085,0.872,,
+total_magnetization_muB_fu,Random Forest,0.842,"[0.804,0.873]",0.1914,0.857,0.826,0.811,0.1864,0.4111,0.894,,

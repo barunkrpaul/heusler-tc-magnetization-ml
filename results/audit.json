@@ -1,0 +1,78 @@
+{
+  "audit": {
+    "raw_records": 1505,
+    "missing_values_targets": 0,
+    "negative_hull_rows_clipped": 20,
+    "site_swap_isomer_rows": 180,
+    "reduced_composition_rows": 76,
+    "site_parse_radius_mismatches": 0,
+    "isomer_groups": 1412,
+    "largest_isomer_group": 2,
+    "final_records": 1505,
+    "n_descriptors_tierA": 34,
+    "n_descriptors_tierB": 10,
+    "holdout_entries": 227,
+    "development_entries": 1278,
+    "per_type": {
+      "Full": 510,
+      "Half": 393,
+      "Inverse": 314,
+      "Quaternary": 288
+    }
+  },
+  "descriptor_tiers": {
+    "Tier A": [
+      "V_X",
+      "V_Y",
+      "V_Z",
+      "V_R",
+      "N_v",
+      "dV_XY",
+      "dV_XZ",
+      "dV_YZ",
+      "EN_X",
+      "EN_Y",
+      "EN_Z",
+      "EN_R",
+      "EN_mean",
+      "dEN_XY",
+      "dEN_XZ",
+      "Z_X",
+      "Z_Y",
+      "Z_Z",
+      "Z_R",
+      "R_X",
+      "R_Y",
+      "R_Z",
+      "R_R",
+      "R_mean",
+      "R_spread",
+      "dR_XY",
+      "dR_XZ",
+      "n_atoms_fu",
+      "n_magnetic_3d",
+      "has_R_site",
+      "n_unique_elements",
+      "is_reduced",
+      "SP_24",
+      "SP_18"
+    ],
+    "Tier B": [
+      "type_Full",
+      "type_Half",
+      "type_Inverse",
+      "type_Quaternary",
+      "sg_F-43m",
+      "sg_Fm-3m",
+      "sg_I-4m2",
+      "sg_I4/mmm",
+      "SP_selected",
+      "sg_fu_ratio"
+    ],
+    "Tier C": [
+      "formation_energy_eV_atom",
+      "hull_distance_eV_atom",
+      "total_magnetization_muB_fu"
+    ]
+  }
+}

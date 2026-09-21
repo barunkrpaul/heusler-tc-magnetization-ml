@@ -1,0 +1,283 @@
+{
+  "note": "within-family R2 uses the family's own variance; compare MAE across settings",
+  "pooled_per_family": {
+    "curie_temperature_K": {
+      "model": "Random Forest",
+      "per_family": {
+        "Full": {
+          "n_dev": 433,
+          "n_holdout": 77,
+          "cv_r2": 0.5641768164716118,
+          "cv_r2_std": 0.007159522909319734,
+          "cv_mae": 53.791195791634586,
+          "holdout_r2": 0.6759010207318465,
+          "holdout_mae": 58.083246753246755
+        },
+        "Half": {
+          "n_dev": 333,
+          "n_holdout": 60,
+          "cv_r2": -0.02537927601291264,
+          "cv_r2_std": 0.029867173266494736,
+          "cv_mae": 107.2806873540207,
+          "holdout_r2": -0.7359417679017566,
+          "holdout_mae": 120.84511111111117
+        },
+        "Inverse": {
+          "n_dev": 267,
+          "n_holdout": 47,
+          "cv_r2": 0.5914988651506526,
+          "cv_r2_std": 0.015364884522346516,
+          "cv_mae": 164.7777686225552,
+          "holdout_r2": 0.7961368263023512,
+          "holdout_mae": 114.12622695035469
+        },
+        "Quaternary": {
+          "n_dev": 245,
+          "n_holdout": 43,
+          "cv_r2": -0.2048690605987308,
+          "cv_r2_std": 0.015182725519897723,
+          "cv_mae": 141.04805850340134,
+          "holdout_r2": -0.36067640580589266,
+          "holdout_mae": 138.14163565891474
+        }
+      }
+    },
+    "formation_energy_eV_atom": {
+      "model": "Random Forest",
+      "per_family": {
+        "Full": {
+          "n_dev": 433,
+          "n_holdout": 77,
+          "cv_r2": 0.09297765320201042,
+          "cv_r2_std": 0.08156157129654126,
+          "cv_mae": 0.023370927605755706,
+          "holdout_r2": -0.527728142172061,
+          "holdout_mae": 0.031956883116883085
+        },
+        "Half": {
+          "n_dev": 333,
+          "n_holdout": 60,
+          "cv_r2": -0.11881113630515094,
+          "cv_r2_std": 0.024156160769365324,
+          "cv_mae": 0.06586879800869201,
+          "holdout_r2": -0.19854724023312853,
+          "holdout_mae": 0.06917134649655553
+        },
+        "Inverse": {
+          "n_dev": 267,
+          "n_holdout": 47,
+          "cv_r2": 0.5957642199761767,
+          "cv_r2_std": 0.021691599342218097,
+          "cv_mae": 0.06912627053837701,
+          "holdout_r2": 0.5338951478372995,
+          "holdout_mae": 0.06904984468460999
+        },
+        "Quaternary": {
+          "n_dev": 245,
+          "n_holdout": 43,
+          "cv_r2": -0.18412903703073744,
+          "cv_r2_std": 0.01659072263563752,
+          "cv_mae": 0.0791649568702585,
+          "holdout_r2": -0.0018156331079763888,
+          "holdout_mae": 0.09073352894131781
+        }
+      }
+    },
+    "hull_distance_eV_atom": {
+      "model": "Random Forest",
+      "per_family": {
+        "Full": {
+          "n_dev": 433,
+          "n_holdout": 77,
+          "cv_r2": -0.03132536478842226,
+          "cv_r2_std": 0.011381476984945167,
+          "cv_mae": 0.03927366306052348,
+          "holdout_r2": 0.13070998315585547,
+          "holdout_mae": 0.04425202189982684
+        },
+        "Half": {
+          "n_dev": 333,
+          "n_holdout": 60,
+          "cv_r2": -0.021180166831629783,
+          "cv_r2_std": 0.02013721695068877,
+          "cv_mae": 0.04715975880291625,
+          "holdout_r2": -0.054102703646611294,
+          "holdout_mae": 0.04648022528605554
+        },
+        "Inverse": {
+          "n_dev": 267,
+          "n_holdout": 47,
+          "cv_r2": 0.6545029186495015,
+          "cv_r2_std": 0.017622794779341925,
+          "cv_mae": 0.03746428991187267,
+          "holdout_r2": 0.7271747909263211,
+          "holdout_mae": 0.031095320217375898
+        },
+        "Quaternary": {
+          "n_dev": 245,
+          "n_holdout": 43,
+          "cv_r2": -0.10628229866973278,
+          "cv_r2_std": 0.015252150642936278,
+          "cv_mae": 0.05394659123381406,
+          "holdout_r2": -0.08816881286709277,
+          "holdout_mae": 0.05100190722744185
+        }
+      }
+    },
+    "total_magnetization_muB_fu": {
+      "model": "Random Forest",
+      "per_family": {
+        "Full": {
+          "n_dev": 433,
+          "n_holdout": 77,
+          "cv_r2": 0.7889269128315824,
+          "cv_r2_std": 0.005097051888602649,
+          "cv_mae": 0.062332713051064935,
+          "holdout_r2": 0.6884621257216654,
+          "holdout_mae": 0.08732595536796543
+        },
+        "Half": {
+          "n_dev": 333,
+          "n_holdout": 60,
+          "cv_r2": 0.4010069502772726,
+          "cv_r2_std": 0.005522871954463871,
+          "cv_mae": 0.12823027978178175,
+          "holdout_r2": 0.48254520678820156,
+          "holdout_mae": 0.11783339305555567
+        },
+        "Inverse": {
+          "n_dev": 267,
+          "n_holdout": 47,
+          "cv_r2": 0.7140598911680204,
+          "cv_r2_std": 0.013807747266819466,
+          "cv_mae": 0.5376602624362578,
+          "holdout_r2": 0.7194165182942414,
+          "holdout_mae": 0.49846941767316805
+        },
+        "Quaternary": {
+          "n_dev": 245,
+          "n_holdout": 43,
+          "cv_r2": -0.2133432405348541,
+          "cv_r2_std": 0.015217523701741446,
+          "cv_mae": 0.12818159102040813,
+          "holdout_r2": -0.21970882050130136,
+          "holdout_mae": 0.11814145480620158
+        }
+      }
+    }
+  },
+  "family_specific_best": {
+    "Full|curie_temperature_K": {
+      "best_model": "LightGBM",
+      "cv_r2": 0.581722280715893,
+      "cv_mae": 58.50228985803212,
+      "holdout_r2": 0.7429178484751364,
+      "holdout_mae": 53.60861137245956
+    },
+    "Full|formation_energy_eV_atom": {
+      "best_model": "Lasso",
+      "cv_r2": -0.013012958441952686,
+      "cv_mae": 0.022366987639712056,
+      "holdout_r2": -0.02277762829480201,
+      "holdout_mae": 0.02799706067604451
+    },
+    "Full|hull_distance_eV_atom": {
+      "best_model": "Lasso",
+      "cv_r2": -0.006407699218357798,
+      "cv_mae": 0.03809049143018066,
+      "holdout_r2": -0.001365881946565617,
+      "holdout_mae": 0.04622965717884887
+    },
+    "Full|total_magnetization_muB_fu": {
+      "best_model": "LightGBM",
+      "cv_r2": 0.7692497421145088,
+      "cv_mae": 0.06704795299410454,
+      "holdout_r2": 0.7499012354416547,
+      "holdout_mae": 0.07667586419101917
+    },
+    "Half|curie_temperature_K": {
+      "best_model": "SVR",
+      "cv_r2": -0.02178787136262778,
+      "cv_mae": 103.44287136355348,
+      "holdout_r2": -0.03926796318935133,
+      "holdout_mae": 92.25633334522452
+    },
+    "Half|formation_energy_eV_atom": {
+      "best_model": "Lasso",
+      "cv_r2": -0.019677873796933126,
+      "cv_mae": 0.06203665764688802,
+      "holdout_r2": -0.05010033294654592,
+      "holdout_mae": 0.06630638288288287
+    },
+    "Half|hull_distance_eV_atom": {
+      "best_model": "Lasso",
+      "cv_r2": -0.005392304861331946,
+      "cv_mae": 0.04639948277873975,
+      "holdout_r2": -0.011502091905994716,
+      "holdout_mae": 0.044821591141141134
+    },
+    "Half|total_magnetization_muB_fu": {
+      "best_model": "Lasso",
+      "cv_r2": 0.4318000245751864,
+      "cv_mae": 0.12389716571692673,
+      "holdout_r2": 0.5255486904784508,
+      "holdout_mae": 0.10949534351690156
+    },
+    "Inverse|curie_temperature_K": {
+      "best_model": "Gradient Boosting",
+      "cv_r2": 0.6188873246218851,
+      "cv_mae": 155.30135569096146,
+      "holdout_r2": 0.7289855385545158,
+      "holdout_mae": 141.60030647858665
+    },
+    "Inverse|formation_energy_eV_atom": {
+      "best_model": "Gradient Boosting",
+      "cv_r2": 0.7376793167114026,
+      "cv_mae": 0.05022312284284851,
+      "holdout_r2": 0.8068732938801187,
+      "holdout_mae": 0.04616312716543305
+    },
+    "Inverse|hull_distance_eV_atom": {
+      "best_model": "LightGBM",
+      "cv_r2": 0.6910073739991919,
+      "cv_mae": 0.03387681499322966,
+      "holdout_r2": 0.7551586856824273,
+      "holdout_mae": 0.029558380298855855
+    },
+    "Inverse|total_magnetization_muB_fu": {
+      "best_model": "Random Forest",
+      "cv_r2": 0.7271992557802386,
+      "cv_mae": 0.5342177596285519,
+      "holdout_r2": 0.7240964433378905,
+      "holdout_mae": 0.497298057878251
+    },
+    "Quaternary|curie_temperature_K": {
+      "best_model": "SVR",
+      "cv_r2": -0.04960195325416147,
+      "cv_mae": 130.3421399635107,
+      "holdout_r2": -0.04561953387787576,
+      "holdout_mae": 110.9727606471601
+    },
+    "Quaternary|formation_energy_eV_atom": {
+      "best_model": "Lasso",
+      "cv_r2": -0.05279544285956168,
+      "cv_mae": 0.07254111618182293,
+      "holdout_r2": -0.0015600530763264508,
+      "holdout_mae": 0.09286533080208828
+    },
+    "Quaternary|hull_distance_eV_atom": {
+      "best_model": "Lasso",
+      "cv_r2": -0.012608079639086774,
+      "cv_mae": 0.05168897498984972,
+      "holdout_r2": -0.020560133141427128,
+      "holdout_mae": 0.04938054617940199
+    },
+    "Quaternary|total_magnetization_muB_fu": {
+      "best_model": "Lasso",
+      "cv_r2": -0.02949199063688114,
+      "cv_mae": 0.11660140721399728,
+      "holdout_r2": -0.03516665847341005,
+      "holdout_mae": 0.10868465376156596
+    }
+  }
+}

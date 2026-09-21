@@ -1,0 +1,22 @@
+{
+  "curie_temperature_K": {
+    "best_model": "Random Forest",
+    "holdout_r2": 0.7066070117028838,
+    "holdout_mae": 101.44114390602059
+  },
+  "formation_energy_eV_atom": {
+    "best_model": "Random Forest",
+    "holdout_r2": 0.26492141779908907,
+    "holdout_mae": 0.06060724772883993
+  },
+  "hull_distance_eV_atom": {
+    "best_model": "Random Forest",
+    "holdout_r2": 0.29573526963044294,
+    "holdout_mae": 0.04339551217817915
+  },
+  "total_magnetization_muB_fu": {
+    "best_model": "Random Forest",
+    "holdout_r2": 0.8114912360804207,
+    "holdout_mae": 0.18635351248445925
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "tuned_gb": {
+    "curie_temperature_K": {
+      "params": {
+        "subsample": 0.9,
+        "n_estimators": 200,
+        "min_samples_leaf": 2,
+        "max_features": "sqrt",
+        "max_depth": 7,
+        "learning_rate": 0.03
+      },
+      "cv_default_r2": 0.653871152019872,
+      "cv_tuned_r2": 0.6918287920091059,
+      "holdout_tuned_r2": 0.7040247783077698,
+      "holdout_tuned_mae": 106.14701388938205
+    },
+    "formation_energy_eV_atom": {
+      "params": {
+        "subsample": 0.6,
+        "n_estimators": 400,
+        "min_samples_leaf": 2,
+        "max_features": null,
+        "max_depth": 7,
+        "learning_rate": 0.01
+      },
+      "cv_default_r2": 0.30563325451263884,
+      "cv_tuned_r2": 0.3615387448126523,
+      "holdout_tuned_r2": 0.2907038156522487,
+      "holdout_tuned_mae": 0.06070207755550127
+    },
+    "hull_distance_eV_atom": {
+      "params": {
+        "subsample": 1.0,
+        "n_estimators": 200,
+        "min_samples_leaf": 3,
+        "max_features": "sqrt",
+        "max_depth": 5,
+        "learning_rate": 0.03
+      },
+      "cv_default_r2": 0.19677851520331818,
+      "cv_tuned_r2": 0.2763212328651956,
+      "holdout_tuned_r2": 0.304567718245382,
+      "holdout_tuned_mae": 0.04322974359960983
+    },
+    "total_magnetization_muB_fu": {
+      "params": {
+        "subsample": 0.9,
+        "n_estimators": 200,
+        "min_samples_leaf": 2,
+        "max_features": "sqrt",
+        "max_depth": 7,
+        "learning_rate": 0.03
+      },
+      "cv_default_r2": 0.8045947920431602,
+      "cv_tuned_r2": 0.8571297158087237,
+      "holdout_tuned_r2": 0.8255922769755303,
+      "holdout_tuned_mae": 0.17489287284017632
+    }
+  },
+  "scenario2_curie": {
+    "Random Forest": {
+      "cv_r2": 0.7876265070688747,
+      "cv_r2_std": 0.05500231634364214,
+      "cv_mae": 77.15064904342847,
+      "holdout_r2": 0.7636388115598356
+    },
+    "Gradient Boosting": {
+      "cv_r2": 0.7818646545886719,
+      "cv_r2_std": 0.048417958011875005,
+      "cv_mae": 82.27345057438022,
+      "holdout_r2": 0.8095043218430542
+    },
+    "LightGBM": {
+      "cv_r2": 0.785683196140314,
+      "cv_r2_std": 0.04891916373576531,
+      "cv_mae": 81.62462292154517,
+      "holdout_r2": 0.7637772238905265
+    }
+  },
+  "scenario2_single_addition_r2": {
+    "formation_energy_eV_atom": 0.6689487493529827,
+    "hull_distance_eV_atom": 0.6621011406677682,
+    "total_magnetization_muB_fu": 0.7966242411148798
+  },
+  "type_classification": {
+    "baseline_majority": 0.33881064162754304,
+    "best_model": "LightGBM",
+    "holdout_accuracy": 0.920704845814978,
+    "holdout_f1_macro": 0.9187702541361078,
+    "holdout_auc_ovr": 0.9848442991515357,
+    "holdout_confusion": [
+      [
+        72,
+        1,
+        4,
+        0
+      ],
+      [
+        0,
+        57,
+        3,
+        0
+      ],
+      [
+        5,
+        5,
+        37,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        43
+      ]
+    ],
+    "classes": [
+      "Full",
+      "Half",
+      "Inverse",
+      "Quaternary"
+    ]
+  }
+}
