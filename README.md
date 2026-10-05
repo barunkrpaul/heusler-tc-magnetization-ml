@@ -59,4 +59,4 @@ The dataset's column layout and units are consistent with the computational Heus
 
 ## Citation
 
-If this pipeline or its results are used, please cite the associated manuscript (Paul, Giri, Datta & Pal, submitted) once it is available, and the original dataset source once its provenance is confirmed.
+If this pipeline or its results are used, please cite the associated manuscript (Paul, Das, Giri, De, Datta & Pal, submitted) once it is available, and the original dataset source once its provenance is confirmed.
