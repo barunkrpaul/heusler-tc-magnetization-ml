@@ -1,4 +1,4 @@
-# Heusler Alloy Machine Learning Pipeline
+# Heusler Alloy Machine Learning Pipeline ok
 
 Predicts the Curie temperature ($T_C$), total magnetization, formation energy and hull distance of Heusler alloys from composition-level descriptors, using a leakage-controlled, isomer-group-aware validation protocol. This is the corrected-data (v2) run: it reproduces, on the corrected Half/Full/Inverse/Quaternary datasets (isomer-out validation, clipped hull-distance target, formula-unit-per-cell descriptor), the provenance-tiered framework of Paul, Giri, Datta & Pal, *"Multi-Target Machine Learning and Deep Learning Framework for Predicting Structural, Energetic, and Magnetic Properties of Ternary Heusler Alloys Using Site-Resolved Descriptors"* (submitted to *Physica B*).
 
