@@ -1,0 +1,21 @@
+# Python dependencies for heusler-tc-magnetization-ml
+#
+# Python 3.11 is required.
+# With these exact versions, running scripts/01 to scripts/09 in order
+# reproduces every file in results/ exactly, as checked against the
+# released results on 11 Oct 2026.
+#
+# Keep scikit-learn at 1.8.0. Random Forest output changes in
+# scikit-learn 1.9, and the hold-out scores then shift slightly
+# (for example, magnetization R2 becomes 0.814 instead of 0.811).
+#
+# Install with:  pip install -r requirements.txt
+
+numpy==2.3.5
+pandas==3.0.6
+scipy==1.17.1
+scikit-learn==1.8.0
+xgboost==3.2.0
+lightgbm==4.7.0
+shap==0.51.0
+matplotlib==3.11.2
