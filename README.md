@@ -19,7 +19,7 @@ See `REPORT.md` for the full write-up of results, including the per-family break
 ## Requirements
 
 ```
-pip install pandas numpy scikit-learn xgboost lightgbm shap matplotlib
+pip install -r requirements.txt
 ```
 
 Python 3.11 was used for the original run; the scripts have no version-specific syntax and should run on any reasonably recent Python 3.
